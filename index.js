@@ -34,7 +34,7 @@ app.listen(port, () => {
 });
 
 app.get("/", (_req, res) => {
-  res.send("Hello");
+  res.send("Hello Everyone");
 });
 
 // CRUD - create, read, update, delete
