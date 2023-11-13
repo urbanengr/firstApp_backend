@@ -76,6 +76,7 @@ app.get("/get_routine", async (_req, res) => {
     console.log(data);
   } catch (err) {
     console.log(err);
+    res.send(`Failed to retrieve routines ${err}`);
   }
 });
 
